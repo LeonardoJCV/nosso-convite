@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyle } from './styles/GlobalStyles';
+import { theme } from './styles/theme';
+import Header from './sections/Header';
+import OurStory from './sections/OurStory';
+import RSVP from './sections/RSVP';
+import EventInfo from './sections/EventInfo';
+import Footer from './sections/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Header />
+      <OurStory />
+      <EventInfo />
+      <RSVP />
+      <Footer />
+    </ThemeProvider>
   );
 }
 
