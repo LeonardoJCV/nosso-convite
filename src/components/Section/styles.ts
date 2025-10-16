@@ -12,7 +12,7 @@ export const Section = styled.section<SectionProps>`
   ${({ theme, alternate }) =>
         alternate
             ? `
-        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(246, 231, 203, 0.85)), url(${BackgroundImage});
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(61, 61, 60, 0.85)), url(${BackgroundImage});
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;

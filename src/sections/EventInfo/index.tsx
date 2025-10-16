@@ -11,12 +11,12 @@ const EventInfo = () => {
                 <SectionTitle>Localização</SectionTitle>
                 <EventInfoGrid>
                     <InfoBlock>
-                        <h3>Cerimónia e Recepção</h3>
+                        <h3>Cerimônia e Recepção</h3>
                         <p>
                             <strong>Data:</strong> Sábado, 3 de Janeiro de 2026
                         </p>
                         <p>
-                            <strong>Horário:</strong> 17:00
+                            <strong>Horário:</strong> 13:00
                         </p>
                         <p>
                             <strong>Local:</strong> Chácara Esperança
