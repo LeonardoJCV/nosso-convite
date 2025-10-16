@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
   padding: ${({ theme }) => theme.spacings.large};
-  background-color: #c67da2ff;
+  background-color: #c28c3cff;
   text-align: center;
 `;
 

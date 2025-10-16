@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <FooterWrapper>
             <FooterText>
-                {brideName} <span>&</span> {groomName}
+                {brideName} <span>❤️</span> {groomName}
             </FooterText>
             <FooterText>© {currentYear} | Feito com amor.</FooterText>
         </FooterWrapper>
